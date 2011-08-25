@@ -87,5 +87,6 @@ command! -nargs=0 TagbarClose         call tagbar#CloseWindow()
 command! -nargs=1 TagbarSetFoldlevel  call tagbar#SetFoldLevel(<args>)
 command! -nargs=0 TagbarShowTag       call tagbar#OpenParents()
 
+
 " Modeline {{{1
 " vim: ts=8 sw=4 sts=4 et foldenable foldmethod=marker foldcolumn=1
